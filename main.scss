@@ -1,5 +1,31 @@
-@for $i from 1 through 50 {
-  .class-#{$i} {
-    font-size: 10px * $i;
+// Import Global Rules
+@use './sass/layout/global-rules';
+
+// Import Layout
+@use './sass/pages/contact';
+
+@use './sass/variables/colors' as *;
+
+//global variables
+$alt_color: green;
+
+.header{
+  color: $alt_color;
+}
+
+.footer{
+  $alt_color: red;
+  color: $alt_color;
+}
+.sidebar{
+  color: $alt;
+  background-color: $main;
+}
+
+$max_Mobile: "max-width: 768px";
+
+@media ($max_Mobile) {
+  .sidebar{
+    padding: 20px;
   }
 }

@@ -1,199 +1,27 @@
-.class-1 {
-  font-size: 10px;
+* {
+  box-sizing: border-box;
 }
 
-.class-2 {
-  font-size: 20px;
+* {
+  padding: 20px;
+  margin: 0;
 }
 
-.class-3 {
-  font-size: 30px;
+.header {
+  color: green;
 }
 
-.class-4 {
-  font-size: 40px;
+.footer {
+  color: red;
 }
 
-.class-5 {
-  font-size: 50px;
+.sidebar {
+  color: rgb(223, 208, 208);
+  background-color: blue;
 }
 
-.class-6 {
-  font-size: 60px;
-}
-
-.class-7 {
-  font-size: 70px;
-}
-
-.class-8 {
-  font-size: 80px;
-}
-
-.class-9 {
-  font-size: 90px;
-}
-
-.class-10 {
-  font-size: 100px;
-}
-
-.class-11 {
-  font-size: 110px;
-}
-
-.class-12 {
-  font-size: 120px;
-}
-
-.class-13 {
-  font-size: 130px;
-}
-
-.class-14 {
-  font-size: 140px;
-}
-
-.class-15 {
-  font-size: 150px;
-}
-
-.class-16 {
-  font-size: 160px;
-}
-
-.class-17 {
-  font-size: 170px;
-}
-
-.class-18 {
-  font-size: 180px;
-}
-
-.class-19 {
-  font-size: 190px;
-}
-
-.class-20 {
-  font-size: 200px;
-}
-
-.class-21 {
-  font-size: 210px;
-}
-
-.class-22 {
-  font-size: 220px;
-}
-
-.class-23 {
-  font-size: 230px;
-}
-
-.class-24 {
-  font-size: 240px;
-}
-
-.class-25 {
-  font-size: 250px;
-}
-
-.class-26 {
-  font-size: 260px;
-}
-
-.class-27 {
-  font-size: 270px;
-}
-
-.class-28 {
-  font-size: 280px;
-}
-
-.class-29 {
-  font-size: 290px;
-}
-
-.class-30 {
-  font-size: 300px;
-}
-
-.class-31 {
-  font-size: 310px;
-}
-
-.class-32 {
-  font-size: 320px;
-}
-
-.class-33 {
-  font-size: 330px;
-}
-
-.class-34 {
-  font-size: 340px;
-}
-
-.class-35 {
-  font-size: 350px;
-}
-
-.class-36 {
-  font-size: 360px;
-}
-
-.class-37 {
-  font-size: 370px;
-}
-
-.class-38 {
-  font-size: 380px;
-}
-
-.class-39 {
-  font-size: 390px;
-}
-
-.class-40 {
-  font-size: 400px;
-}
-
-.class-41 {
-  font-size: 410px;
-}
-
-.class-42 {
-  font-size: 420px;
-}
-
-.class-43 {
-  font-size: 430px;
-}
-
-.class-44 {
-  font-size: 440px;
-}
-
-.class-45 {
-  font-size: 450px;
-}
-
-.class-46 {
-  font-size: 460px;
-}
-
-.class-47 {
-  font-size: 470px;
-}
-
-.class-48 {
-  font-size: 480px;
-}
-
-.class-49 {
-  font-size: 490px;
-}
-
-.class-50 {
-  font-size: 500px;
+@media (max-width: 768px) {
+  .sidebar {
+    padding: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
